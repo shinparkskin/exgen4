@@ -13,14 +13,6 @@ const footerNavigation = {
 
   aboutUs: [{ name: "신주원", href: "#" }],
 
-  legal: [{ name: "010 9935 3659", href: "#" }],
-
-  email: [{ name: "quizman3245@naver.com", href: "#" }],
-
-  businessNo: [{ name: "861-32-00236", href: "#" }],
-
-  address: [{ name: "서울시 마곡동 777-5 보타닉타워  513호 ", href: "#" }],
-
   social: [
     {
       name: "Facebook",
@@ -89,35 +81,8 @@ export default function Component() {
                   items: footerNavigation.aboutUs,
                 })}
               </div>
-              <div className="mt-2">
-                {renderList({
-                  title: "대표번호",
-                  items: footerNavigation.legal,
-                })}
-              </div>
             </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
-              <div className="mt-2">
-                {renderList({
-                  title: "이메일",
-                  items: footerNavigation.email,
-                })}
-              </div>
-              <div className="mt-2">
-                {renderList({
-                  title: "사업자번호",
-                  items: footerNavigation.businessNo,
-                })}
-              </div>
-            </div>
-            <div className="md:grid md:grid-cols-1 md:gap-4=">
-              <div className="mt-2">
-                {renderList({
-                  title: "회사주소",
-                  items: footerNavigation.address,
-                })}
-              </div>
-            </div>
+            
           </div>
         </div>
         <Divider className="mt-5 md:mt-16 sm:mt-5 lg:mt-10" />
