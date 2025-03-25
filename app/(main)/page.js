@@ -12,8 +12,8 @@ import HomeRealReview from "./components/HomeRealReview";
 import HomeYoutube from "./components/HomeYoutube";
 
 export const metadata = {
-  title: "체플리케이션",
-  description: "체험단시대 2.0 open ",
+  title: "체험단시대-체험단시대 | 육아맘놀이터 | 체험단시대후기 | 체험단시대협찬 | 체험단시대사기 | 체험단시대풀빌라 | 체험단시대유튜브 | 체험단시대환불 | 체험단시대가격 | 체험단시대워킹맘 | 체험단시대인스타",
+  description: "-체험단시대 -육아맘놀이터 -체험단시대후기 -체험단시대협찬 -체험단시대사기 -체험단시대풀빌라 -체험단시대유튜브 -체험단시대환불 -체험단시대가격 -체험단시대워킹맘 -체험단시대인스타 -",
   icons: {
     icon: "https://rxgvhikbaexklehfaurw.supabase.co/storage/v1/object/public/images/images/ogimage.png",
   },

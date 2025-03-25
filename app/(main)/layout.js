@@ -11,11 +11,13 @@ import "react-toastify/dist/ReactToastify.css";
 
 export const metadata = {
   title: "체험단시대_육아맘놀이터 / 체플리케이션",
-  description: "체험단시대 2.0 open ",
+  description: "-체험단시대 -육아맘놀이터 -체험단시대후기 -체험단시대협찬 -체험단시대사기 -체험단시대풀빌라 -체험단시대유튜브 -체험단시대환불 -체험단시대가격 -체험단시대워킹맘 -체험단시대인스타 -",
+  keywords: "체험단시대, 육아맘놀이터, 체험단시대후기, 체험단시대협찬, 체험단시대사기, 체험단시대풀빌라, 체험단시대유튜브, 체험단시대환불, 체험단시대가격, 체험단시대워킹맘, 체험단시대인스타",
   icons: {
     icon: "https://rxgvhikbaexklehfaurw.supabase.co/storage/v1/object/public/images/images/ogimage.png",
   },
   openGraph: {
+    title: "체험단시대-체험단시대 | 육아맘놀이터 | 체험단시대후기 | 체험단시대협찬 | 체험단시대사기 | 체험단시대풀빌라 | 체험단시대유튜브 | 체험단시대환불 | 체험단시대가격 | 체험단시대워킹맘 | 체험단시대인스타",
     images: [
       {
         url: "https://rxgvhikbaexklehfaurw.supabase.co/storage/v1/object/public/images/images/ogimage.png",
@@ -25,6 +27,11 @@ export const metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary",
+    title: "체험단시대-체험단시대 | 육아맘놀이터 | 체험단시대후기 | 체험단시대협찬 | 체험단시대사기 | 체험단시대풀빌라 | 체험단시대유튜브 | 체험단시대환불 | 체험단시대가격 | 체험단시대워킹맘 | 체험단시대인스타",
+    site: "체험단시대-체험단시대 | 육아맘놀이터 | 체험단시대후기 | 체험단시대협찬 | 체험단시대사기 | 체험단시대풀빌라 | 체험단시대유튜브 | 체험단시대환불 | 체험단시대가격 | 체험단시대워킹맘 | 체험단시대인스타",
+  },
   verification: {
     other:{
       'naver-site-verification':'214348c86c145d0f743c8451457cef3f1d1d3191'
@@ -32,7 +39,12 @@ export const metadata = {
   },
   robots: {
     index: true,
-    follow: true}
+    follow: true,
+  },
+  alternates: {
+    canonical: 'www.mom-playground.com',
+  },
+
 };
 
 export default function RootLayout({ children }) {
@@ -43,7 +55,15 @@ export default function RootLayout({ children }) {
     return <>{children}</>;
   }
   return (
-    <html lang="en" >
+    <html lang="ko" >
+      <head>
+        <meta property="og:locale" content="ko_KR" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="체험단시대-체험단시대 | 육아맘놀이터 | 체험단시대후기 | 체험단시대협찬 | 체험단시대사기 | 체험단시대풀빌라 | 체험단시대유튜브 | 체험단시대환불 | 체험단시대가격 | 체험단시대워킹맘 | 체험단시대인스타" />
+        <meta property="og:url" content="www.mom-playground.com" />
+        
+        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+      </head>
       <body className="w-full h-full">
         <div id="wrapper" className="h-full">
           <Header></Header>
