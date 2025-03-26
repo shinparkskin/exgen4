@@ -13,7 +13,7 @@ import HomeYoutube from "./components/HomeYoutube";
 
 export const metadata = {
   title: "체험단시대_육아맘놀이터",
-  description: "-체험단시대 -육아맘놀이터 -체험단시대후기 -체험단시대협찬 -체험단시대사기 -체험단시대풀빌라 -체험단시대유튜브 -체험단시대환불 -체험단시대가격 -체험단시대워킹맘 -체험단시대인스타 -",
+  description: "체험단시대 - 5000명의 선택 , 육아맘들에게 다양한 협찬을 제공해주는 공간  -",
   icons: {
     icon: "https://rxgvhikbaexklehfaurw.supabase.co/storage/v1/object/public/images/images/ogimage.png",
   },
