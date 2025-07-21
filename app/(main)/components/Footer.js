@@ -11,7 +11,9 @@ const footerNavigation = {
 
   supportOptions: [{ name: "체험단시대", href: "#" }],
 
-  aboutUs: [{ name: "신주원", href: "#" }],
+  aboutUs: [{ name: "박초아", href: "#" }],
+  
+  companyId: [{ name: "535 25 02263", href: "#" }],
 
   social: [
     {
@@ -69,16 +71,16 @@ export default function Component() {
               </div>
               <div className="mt-2">
                 {renderList({
-                  title: "브랜딩채널",
-                  items: footerNavigation.supportOptions,
+                  title: "대표자명",
+                  items: footerNavigation.aboutUs,
                 })}
               </div>
             </div>
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 {renderList({
-                  title: "대표자명",
-                  items: footerNavigation.aboutUs,
+                  title: "사업자번호",
+                  items: footerNavigation.companyId,
                 })}
               </div>
             </div>
