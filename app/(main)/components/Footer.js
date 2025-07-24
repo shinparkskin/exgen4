@@ -7,11 +7,11 @@ import { Icon } from "@iconify/react";
 import ThemeSwitch from "./theme-switch";
 
 const footerNavigation = {
-  services: [{ name: "공생마케팅", href: "#" }],
+  services: [{ name: "체험단시대", href: "#" }],
 
   supportOptions: [{ name: "체험단시대", href: "#" }],
 
-  aboutUs: [{ name: "박초아", href: "#" }],
+  aboutUs: [{ name: "신주원", href: "#" }],
   
   companyId: [{ name: "535 25 02263", href: "#" }],
 
