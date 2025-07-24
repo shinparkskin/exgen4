@@ -7,6 +7,7 @@ import { NextUIProvider } from "@nextui-org/react";
 import { headers } from "next/headers";
 import Footer from "./components/Footer";
 import ChannelTalk from "./components/ChannelTalk";
+import ClientWrapper from './components/ClientWrapper'
 import "react-toastify/dist/ReactToastify.css";
 
 export const metadata = {
@@ -65,27 +66,28 @@ export default function RootLayout({ children }) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       </head>
       <body className="w-full h-full">
-        <div id="wrapper" className="h-full">
-          <Header></Header>
-          <main
-            id="site__main"
-            class="2xl:ml-[--w-side]  xl:ml-[--w-side-sm] p-2.5 h-full mt-[--m-top] "
-          >
-            <NextUIProvider>
-              <div class="grid grid-cols-12 md:gap-x-10 " id="js-oversized">
-                <div class="col-span-12 md:col-span-9 ">{children}</div>
-                <div class="hidden md:block md:col-span-3 mt-10 ">
-                  <RightSideBar></RightSideBar>
+        <ClientWrapper>
+          <div id="wrapper" className="h-full">
+            <Header></Header>
+            <main
+              id="site__main"
+              class="2xl:ml-[--w-side]  xl:ml-[--w-side-sm] p-2.5 h-full mt-[--m-top] "
+            >
+              <NextUIProvider>
+                <div class="grid grid-cols-12 md:gap-x-10 " id="js-oversized">
+                  <div class="col-span-12 md:col-span-9 ">{children}</div>
+                  <div class="hidden md:block md:col-span-3 mt-10 ">
+                    <RightSideBar></RightSideBar>
+                  </div>
                 </div>
-              </div>
-              <Footer></Footer>
-            </NextUIProvider>
-          </main>
-        </div>
-        <ChannelTalk>
+                <Footer></Footer>
+              </NextUIProvider>
+            </main>
+          </div>
+          <ChannelTalk>
 
-        </ChannelTalk>
-
+          </ChannelTalk>
+        </ClientWrapper>
       </body>
     </html>
   );
