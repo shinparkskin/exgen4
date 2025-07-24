@@ -13,7 +13,7 @@ const footerNavigation = {
 
   aboutUs: [{ name: "신주원", href: "#" }],
   
-  companyId: [{ name: "535 25 02263", href: "#" }],
+  companyId: [{ name: "861 32 00236", href: "#" }],
 
   social: [
     {
