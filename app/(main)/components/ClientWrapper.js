@@ -22,7 +22,7 @@ export default function ClientWrapper({ children }) {
       {children}
       {showPopup && (
         <ImagePopup
-          imageUrl="/images/promo.jpg"
+          imageUrl="/images/notice.png"
           onClose={() => setShowPopup(false)}
         />
       )}
