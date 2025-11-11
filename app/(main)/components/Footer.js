@@ -11,9 +11,9 @@ const footerNavigation = {
 
   supportOptions: [{ name: "체험단시대", href: "#" }],
 
-  aboutUs: [{ name: "신주원", href: "#" }],
+  aboutUs: [{ name: "박초아", href: "#" }],
   
-  companyId: [{ name: "861 32 00236", href: "#" }],
+  companyId: [{ name: "823 34 01620", href: "#" }],
 
   social: [
     {
