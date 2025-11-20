@@ -7,13 +7,13 @@ import { Icon } from "@iconify/react";
 import ThemeSwitch from "./theme-switch";
 
 const footerNavigation = {
-  services: [{ name: "체험단시대", href: "#" }],
+  services: [{ name: "체험단시대 - 공생마케팅", href: "#" }],
 
-  supportOptions: [{ name: "체험단시대", href: "#" }],
+  supportOptions: [{ name: "체험단시대 - 공생마케팅", href: "#" }],
 
-  aboutUs: [{ name: "박초아", href: "#" }],
+  aboutUs: [{ name: "신주원", href: "#" }],
   
-  companyId: [{ name: "823 34 01620", href: "#" }],
+  companyId: [{ name: "861 32 00236", href: "#" }],
 
   social: [
     {
